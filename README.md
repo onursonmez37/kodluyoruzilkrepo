@@ -1,7 +1,7 @@
 # Kodluyoruz Ilk Repo
 
  Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Back-End eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
-![](https://www.hizliresim.com/rpko306)
+![](https://imgyukle.com/i/VKGwOM)
 
 ## Installation
 
