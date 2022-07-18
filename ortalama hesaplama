@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.Iterator;
+import java.util.Scanner;
+public class main {
+	public static void main(String[] args) {
+		int mat,fizik,kimya,turkce,tarih,muzik;
+		double toplam=0;
+		Scanner inp = new Scanner (System.in);
+		System.out.println("Matematik Notunuz : ");
+		mat=inp.nextInt();
+		System.out.println("Fizik Notunuz : ");
+		fizik=inp.nextInt();
+		System.out.println("Kimya Notunuz : ");
+		kimya=inp.nextInt();
+		System.out.println("Türkçe Notunuz : ");
+		turkce=inp.nextInt();
+		System.out.println("Tarih Notunuz : ");
+		tarih=inp.nextInt();
+		System.out.println("Müzik Notunuz : ");
+		muzik=inp.nextInt();
+		toplam =((mat + fizik + kimya + turkce + tarih + muzik)/6);
+		System.out.println(toplam>=60 ? "Sınıfı Geçti": "Sınıfta Kaldı");
+	}
+
+}
